@@ -1,0 +1,16 @@
+
+  void main() {
+  
+ var cartypes = ['honda','civic','bmw'];
+  print (cartypes);
+  print (cartypes[2]);
+  cartypes[2]='jeep';
+    print (cartypes);
+   print (cartypes.length);
+  print ( cartypes[2]);
+    cartypes [1]= 'car';
+   print (cartypes);
+    for(int i = 0 ; i < cartypes.length ; i++)
+  {
+    print (cartypes[i]);
+  }}
