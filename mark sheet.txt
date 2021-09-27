@@ -1,0 +1,22 @@
+void main(){
+ var aa =[44,66,2,2,5,44,88];
+  var rr =["ali","sara","raza"];
+  for (var i=0;i<=aa.length;i++){
+    razzaq(aa[i]);
+  }
+}  
+ void razzaq(num per){
+   
+   if (per>=80){
+     print(" A+");
+   }else if (per>=70){
+     print("B+");
+   }else if (per>=50){
+     print("A");
+   }else if(per<=50){
+     print("fail");
+   }
+ }
+   
+   
+   
